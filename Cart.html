@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>ShopCart</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            Zen<span>nit</span>
+        </div>
+
+        <div class="links">
+            <ul class="link">
+                <li>Home</li>
+                <li>User</li>
+                <li>Favourites</li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <ul class="link">
+                <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                <li><i class="fa-brands fa-twitter"></i> Twitter</li>
+                <li><i class="fa-brands fa-tiktok"></i> TikTok</li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="search">
+            <div class="search-input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="searchBar" placeholder="Search...">
+                <button class="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <div class="categories">
+            <ul class="cat">
+                <li>Clothes</li>
+                <li>Eletronics</li>
+                <li>Shoes</li>
+                <li>Furniture</li>
+            </ul>
+
+
+            <ul class="pages">
+                <li><button onclick="alterPage(0)">1</button></li>
+                <li><button onclick="alterPage(10)">2</button></li>
+                <li><button onclick="alterPage(20)">3</button></li>
+                <li><button onclick="alterPage(30)">4</button></li>
+                <li><button onclick="alterPage(40)">5</button></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="products">       
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="./Interaction/Cart.js"></script>
+</body>
+
+</html>
